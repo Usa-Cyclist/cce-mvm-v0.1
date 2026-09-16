@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this research artifact, please cite the associated paper and software release."
+title: "CCE-MVM v0.1 reproducibility artifact"
+type: software
+authors:
+  - family-names: "__AUTHOR_FAMILY_NAME__"
+    given-names: "__AUTHOR_GIVEN_NAMES__"
+    orcid: "__ORCID_URL_OR_REMOVE_FIELD__"
+version: "__RELEASE_VERSION__"
+date-released: "__YYYY-MM-DD__"
+repository-code: "__PUBLIC_REPOSITORY_URL__"
+url: "__ARCHIVAL_RELEASE_URL__"
+license: "__AUTHOR_APPROVED_CODE_LICENSE__"
+preferred-citation:
+  type: article
+  title: "__FINAL_PAPER_TITLE__"
+  authors:
+    - family-names: "__AUTHOR_FAMILY_NAME__"
+      given-names: "__AUTHOR_GIVEN_NAMES__"
+      orcid: "__ORCID_URL_OR_REMOVE_FIELD__"
+  year: "__PUBLICATION_YEAR__"
+  repository: "arXiv"
+  identifiers:
+    - type: other
+      value: "__ARXIV_IDENTIFIER_AFTER_ANNOUNCEMENT__"
+

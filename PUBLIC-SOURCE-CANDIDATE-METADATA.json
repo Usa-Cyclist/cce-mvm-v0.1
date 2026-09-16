@@ -1,0 +1,14 @@
+{
+  "candidate_name": "cce-mvm-v0.1-public-source-candidate",
+  "status": "draft_not_authorized_for_publication",
+  "built_at_utc": "2026-09-01T22:13:45.438544+00:00",
+  "python_version": "3.9.6",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "source_git_head": "745ca82dd56920034730036d6f2af6328e22962f",
+  "source_git_dirty": true,
+  "copied_file_count": 79,
+  "author_decisions_applied": false,
+  "license_applied": false,
+  "citation_finalized": false,
+  "publication_authorized": false
+}
