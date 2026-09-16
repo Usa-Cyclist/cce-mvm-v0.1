@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite this software release and the associated manuscript."
+title: "CCE-MVM v0.1 reproducibility artifact"
+type: software
+authors:
+  - family-names: "Morimoto"
+    given-names: "Daiki"
+    orcid: "https://orcid.org/0009-0009-6444-750X"
+version: "0.1"
+date-released: 2026-09-16
+repository-code: "https://github.com/Usa-Cyclist/cce-mvm-v0.1"
+url: "https://github.com/Usa-Cyclist/cce-mvm-v0.1/releases/tag/v0.1"
+license: "Apache-2.0"
