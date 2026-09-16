@@ -1,0 +1,10 @@
+experiment,learning_rate,cumulative_model_error,maximum_model_error,proposal_mismatch_steps,recovery_steps,recovery_status,final_model_error
+H1a,0.05,19.502028,1.52,20,,not_recovered_within_horizon,0.573577
+H1a,0.2,6.326213,1.28,7,13,recovered,0.018447
+H1a,0.5,1.599998,0.8,2,4,recovered,2e-06
+H1a,0.8,0.4,0.32,1,2,recovered,0.0
+H2,0.05,1.678454,0.156,0,9,recovered,0.080081
+H2,0.2,3.073336,0.576,4,8,recovered,0.031666
+H2,0.5,3.199854,1.2,3,4,recovered,0.000146
+H2,0.8,3.2,1.536,3,2,recovered,0.0
+H2,1.0,3.2,1.6,2,1,recovered,0.0

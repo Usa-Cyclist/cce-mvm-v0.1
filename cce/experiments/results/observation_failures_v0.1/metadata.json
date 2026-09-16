@@ -1,0 +1,32 @@
+{
+  "model": "CCE-MVM-v0.1",
+  "model_version": "CCE-MVM-v0.1",
+  "specification_version": "CCE-SPECIFICATION-v0.1",
+  "config_sha256": "71a456ae5f2568999266543ac5b523b69fe463aab9ec2ecf93958bb768c2884a",
+  "generator_module": "cce.simulation.observation_failures",
+  "source_release_status": "unreleased_internal_candidate",
+  "synthetic_only": true,
+  "learning_rate": 0.5,
+  "noise_standard_deviation": 0.1,
+  "seed_start": 52000,
+  "seed_count": 100,
+  "mechanisms": [
+    "missingness",
+    "systematic_bias",
+    "delay"
+  ],
+  "per_run_rows": 1200,
+  "aggregate_rows": 12,
+  "nominal_condition_count": 12,
+  "effective_condition_count": 10,
+  "nominal_rows": 1200,
+  "nonduplicated_condition_rows": 1000,
+  "independent_noise_sequences": 100,
+  "comparison_design": "common_random_numbers_paired_across_conditions",
+  "independence_unit": "seeded_noise_and_missingness_sequence",
+  "delay_semantics": "delayed_reference_and_its_original_measurement_noise",
+  "files": [
+    "per_run.csv",
+    "aggregate.csv"
+  ]
+}

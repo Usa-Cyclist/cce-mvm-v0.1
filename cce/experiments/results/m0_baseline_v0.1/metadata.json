@@ -1,0 +1,14 @@
+{
+  "model": "CCE-MVM-v0.1",
+  "model_version": "CCE-MVM-v0.1",
+  "specification_version": "CCE-SPECIFICATION-v0.1",
+  "config_sha256": "b3cd2e6035f7d93e6d68f9b1e9639f9473215b3df1280c3cf3f12f1d5a323d72",
+  "generator_module": "cce.simulation.m0_baseline_experiment",
+  "source_release_status": "unreleased_internal_candidate",
+  "synthetic_only": true,
+  "experiment_group": "M0_configured_hand_calculation_baseline",
+  "saved_output_count": 1,
+  "files": [
+    "baseline.json"
+  ]
+}

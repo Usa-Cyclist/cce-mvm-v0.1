@@ -1,0 +1,90 @@
+{
+  "model": "CCE-MVM-v0.1",
+  "model_version": "CCE-MVM-v0.1",
+  "specification_version": "CCE-SPECIFICATION-v0.1",
+  "generator_module": "cce.simulation.h1b_robustness",
+  "source_release_status": "unreleased_internal_candidate",
+  "synthetic_only": true,
+  "status": "internally_fixed_before_execution_external_registry_not_used",
+  "base_protocol": "h1b-protocol.md",
+  "couplings": [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0],
+  "common": {
+    "valid_delegation": false,
+    "tie_rule": "pause_and_present_all_nearest_options",
+    "rights_gates": {
+      "will_and_preferences": "met",
+      "support_access": "met",
+      "no_undue_influence": "met",
+      "proportionate_and_limited": "met",
+      "review_and_appeal": "met",
+      "delegation_and_return": "met"
+    }
+  },
+  "baseline_sensitivity": {
+    "baseline_responses": [1.0, 0.75, -0.75, -1.0],
+    "proposal_rule": "negate_baseline",
+    "options": [-1.0, 0.0, 1.0],
+    "expected_conditions": 44,
+    "expected_response_effect_rule": "coupling_times_absolute_baseline",
+    "expected_decision_effect_steps": {
+      "absolute_baseline_1.0": {
+        "0.0_to_0.2": 0.0,
+        "0.3_to_0.7": 0.5,
+        "0.8_to_1.0": 1.0
+      },
+      "absolute_baseline_0.75": {
+        "0.0_to_0.1": 0.0,
+        "0.2_to_0.8": 0.5,
+        "0.9_to_1.0": 1.0
+      }
+    },
+    "expected_symmetry": true
+  },
+  "option_grid_sensitivity": {
+    "baseline_response": 1.0,
+    "proposal_value": -1.0,
+    "option_sets": [
+      {
+        "id": "endpoints_2",
+        "options": [-1.0, 1.0],
+        "expected_effect_sequence": [0.0, 0.0, 0.0, 0.0, 0.0, null, 1.0, 1.0, 1.0, 1.0, 1.0],
+        "expected_paused_couplings": [0.5]
+      },
+      {
+        "id": "baseline_3",
+        "options": [-1.0, 0.0, 1.0],
+        "expected_effect_sequence": [0.0, 0.0, 0.0, 0.5, 0.5, 0.5, 0.5, 0.5, 1.0, 1.0, 1.0],
+        "expected_paused_couplings": []
+      },
+      {
+        "id": "dense_5",
+        "options": [-1.0, -0.5, 0.0, 0.5, 1.0],
+        "expected_effect_sequence": [0.0, 0.0, 0.25, 0.25, 0.5, 0.5, 0.5, 0.75, 0.75, 1.0, 1.0],
+        "expected_paused_couplings": []
+      }
+    ],
+    "expected_conditions": 33,
+    "option_set_role": "researcher_defined_environment_not_ai_removal"
+  },
+  "expected_total_conditions": 77,
+  "outputs": [
+    "experiment",
+    "condition_id",
+    "baseline_response",
+    "proposal_value",
+    "coupling",
+    "options",
+    "post_proposal_response",
+    "person_response_source",
+    "analysis_substituted_response",
+    "pause_source",
+    "decision_status",
+    "decision_value",
+    "response_effect",
+    "decision_effect",
+    "decision_mismatch",
+    "decision_opposes_baseline_response",
+    "rights_violation_structural_constant",
+    "analysis_row_valid"
+  ]
+}

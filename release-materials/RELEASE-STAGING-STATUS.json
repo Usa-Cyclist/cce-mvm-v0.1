@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.1",
+  "status": "author_confirmed_local_staging",
+  "built_at_utc": "2026-09-01T22:13:45.455524+00:00",
+  "author_name": "Daiki Morimoto",
+  "affiliation_display": "Independent Researcher, Japan",
+  "release_version": "0.1",
+  "paper_license": "arxiv-perpetual-non-exclusive",
+  "code_license": "Apache-2.0",
+  "documentation_license": "CC-BY-4.0",
+  "synthetic_output_license": "CC-BY-4.0",
+  "rights_confirmed": true,
+  "author_decisions_applied_to_staged_materials": true,
+  "licenses_applied_to_public_repository": false,
+  "citation_finalized": false,
+  "independent_reproduction_status": "not_completed_disclosed",
+  "repository_url": null,
+  "orcid": null,
+  "arxiv_identifier": null,
+  "clean_commit_confirmed": false,
+  "ci_passed": false,
+  "publication_authorized": false,
+  "material_sha256": {
+    "CITATION.cff": "1fea07bcabad1f7f25ced18b1326bfdcbbfc2cb2d0030bb792108070f22804b3",
+    "LICENSE-MAP.md": "49d0badb5f1471b74985022b9f6e5878c10e4e19418173485b6e5a34d7b432f9",
+    "README.md": "9de38f4b14dbd6dbf15c66c0c5c28a20412902f5e957a3ce6fc6b68586257de4",
+    "LICENSES/Apache-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "LICENSES/CC-BY-4.0.txt": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+  }
+}

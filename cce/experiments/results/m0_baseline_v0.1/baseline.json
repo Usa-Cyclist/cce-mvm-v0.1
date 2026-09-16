@@ -1,0 +1,197 @@
+{
+  "model": "CCE-MVM-v0.1",
+  "model_version": "CCE-MVM-v0.1",
+  "specification_version": "CCE-SPECIFICATION-v0.1",
+  "generator_module": "cce.simulation.m0_baseline_experiment",
+  "source_release_status": "unreleased_internal_candidate",
+  "output_schema_version": "CCE-M0-output-v0.1",
+  "synthetic_example": true,
+  "model_scope": {
+    "module": "M0",
+    "event_scope": "single_decision_event",
+    "actor_proposals": "computed_from_synthetic_inputs",
+    "proposal_actors": [
+      "AI",
+      "family",
+      "professional"
+    ],
+    "person_response": "exogenous_synthetic_input",
+    "endogenous_four_actor_interaction": false,
+    "pause_consequence_and_duration": "not_modeled",
+    "outcome_table_role": "illustrative_non_normative_synthetic_fixture"
+  },
+  "input_provenance": {
+    "decision_context": "synthetic_input_with_unparameterized_fields",
+    "environment": "synthetic_input_with_unparameterized_fields",
+    "person_will": "synthetic_input",
+    "actor_parameters": "synthetic_input",
+    "person_response": "exogenous_synthetic_input",
+    "delegation": "synthetic_input",
+    "rights_gates": "synthetic_input",
+    "procedural_participation": "synthetic_input",
+    "outcome_values": "synthetic_input"
+  },
+  "decision_context": {
+    "decision_target": "outing_method",
+    "deadline": {
+      "value": null,
+      "status": "not_parameterized"
+    },
+    "affected_parties": [
+      "person",
+      "family"
+    ],
+    "status": "synthetic_input_with_unparameterized_fields"
+  },
+  "environment": {
+    "feasible_options": [
+      -1.0,
+      0.0,
+      1.0
+    ],
+    "other_constraints": {
+      "value": null,
+      "status": "not_parameterized"
+    },
+    "status": "synthetic_input_with_unparameterized_fields"
+  },
+  "person_will": 0.8,
+  "options": [
+    -1.0,
+    0.0,
+    1.0
+  ],
+  "actors": {
+    "A": {
+      "observation": 0.6,
+      "updated_model": 0.5,
+      "risk_deduction": 0.3,
+      "proposal_value": 0.2,
+      "proposed_options": [
+        0.0
+      ]
+    },
+    "F": {
+      "observation": 0.2,
+      "updated_model": 0.12,
+      "risk_deduction": 0.72,
+      "proposal_value": -0.6,
+      "proposed_options": [
+        -1.0
+      ]
+    },
+    "C": {
+      "observation": 0.7,
+      "updated_model": 0.58,
+      "risk_deduction": 0.2,
+      "proposal_value": 0.38,
+      "proposed_options": [
+        0.0
+      ]
+    }
+  },
+  "person_response": {
+    "action": "modify",
+    "option": 0.0,
+    "source": "exogenous_synthetic_input"
+  },
+  "delegation": {
+    "delegate": "daughter",
+    "scopes": [
+      "departure_time"
+    ],
+    "within_time_limit": true,
+    "person_chosen": true,
+    "revoked": false,
+    "revocable": true,
+    "delegate_is_ai": false,
+    "delegate_is_ai_provenance": "unverified_exogenous_synthetic_input",
+    "decision_scope": "outing_method",
+    "delegated_option": null,
+    "valid_for_decision_scope": false,
+    "status": "synthetic_input"
+  },
+  "rights_gates": {
+    "states": {
+      "will_and_preferences": "met",
+      "support_access": "met",
+      "no_undue_influence": "met",
+      "proportionate_and_limited": "met",
+      "review_and_appeal": "met",
+      "delegation_and_return": "met"
+    },
+    "all_met": true,
+    "status": "synthetic_input"
+  },
+  "procedural_participation": {
+    "meaningful_contribution": {
+      "state": "met",
+      "status": "synthetic_input"
+    },
+    "comprehensible_information": {
+      "state": "met",
+      "status": "synthetic_input"
+    },
+    "real_options": {
+      "state": "met",
+      "status": "synthetic_input"
+    },
+    "refusal_and_modification": {
+      "state": "met",
+      "status": "synthetic_input"
+    },
+    "expression_support": {
+      "state": "unconfirmed",
+      "status": "synthetic_input"
+    },
+    "time_and_reconsideration": {
+      "state": "unconfirmed",
+      "status": "synthetic_input"
+    }
+  },
+  "decision": {
+    "value": 0.0,
+    "rule": "person",
+    "status": "decided",
+    "reason": "supported latest person response",
+    "pause_consequence_status": "not_applicable",
+    "pause_duration_status": "not_applicable"
+  },
+  "outcomes": {
+    "aggregation": "none",
+    "outcome_congruence": {
+      "value": 0.6,
+      "status": "computed_from_synthetic_input"
+    },
+    "actor_specific": {
+      "person": {
+        "safety": {
+          "value": 0.75,
+          "status": "synthetic_input"
+        },
+        "occupational_participation": {
+          "value": 0.8,
+          "status": "synthetic_input"
+        }
+      },
+      "family": {
+        "burden": {
+          "value": 0.4,
+          "status": "synthetic_input"
+        }
+      },
+      "professional": {
+        "burden": {
+          "value": null,
+          "status": "not_parameterized"
+        }
+      },
+      "ecosystem": {
+        "stability": {
+          "value": null,
+          "status": "not_parameterized"
+        }
+      }
+    }
+  }
+}

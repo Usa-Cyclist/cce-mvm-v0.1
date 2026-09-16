@@ -1,0 +1,25 @@
+{
+  "model": "CCE-MVM-v0.1",
+  "model_version": "CCE-MVM-v0.1",
+  "specification_version": "CCE-SPECIFICATION-v0.1",
+  "generator_module": "cce.simulation.noise_robustness",
+  "source_release_status": "unreleased_internal_candidate",
+  "synthetic_only": true,
+  "base_config": "h1_h2_v0.1.json",
+  "noise": {
+    "distribution": "gaussian",
+    "mean": 0.0,
+    "standard_deviation": 0.1,
+    "clip_lower": -1.0,
+    "clip_upper": 1.0
+  },
+  "seeds": {
+    "start": 41000,
+    "count": 100
+  },
+  "aggregation": {
+    "center": "median",
+    "lower_quantile": 0.05,
+    "upper_quantile": 0.95
+  }
+}

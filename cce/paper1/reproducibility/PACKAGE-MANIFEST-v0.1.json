@@ -1,0 +1,482 @@
+{
+  "schema_version": "0.2",
+  "package_name": "cce-mvm-v0.1-reproducibility",
+  "release_status": "internal_candidate",
+  "scope": "CCE-MVM v0.1 mathematical specification, standard-library reference implementation, core tests, documented fixed synthetic experiments, and canonical CSV/JSON outputs",
+  "entries": [
+    {
+      "source": "cce/paper1/reproducibility/PACKAGE-README-v0.1.md",
+      "destination": "README.md"
+    },
+    {
+      "source": "cce/paper1/reproducibility/INTERNAL-REVIEW-NOTICE-v0.1.md",
+      "destination": "INTERNAL-REVIEW-NOTICE.md"
+    },
+    {
+      "source": "cce/paper1/reproducibility/PUBLICATION-GATES-v0.1.md",
+      "destination": "PUBLICATION-GATES.md"
+    },
+    {
+      "source": "cce/paper1/reproducibility/INDEPENDENT-REPRODUCTION-RECORD-v0.1.md",
+      "destination": "INDEPENDENT-REPRODUCTION-RECORD-TEMPLATE.md"
+    },
+    {
+      "source": "cce/paper1/reproducibility/PYTHON-TEST-MATRIX-v0.1.md",
+      "destination": "PYTHON-TEST-MATRIX.md"
+    },
+    {
+      "source": "cce/paper1/reproducibility/verify_package.py",
+      "destination": "verify_package.py"
+    },
+    {
+      "source": "cce/paper1/reproducibility/test_verify_package.py",
+      "destination": "test_verify_package.py"
+    },
+    {
+      "source": "cce/paper1/reproducibility/PACKAGE-MANIFEST-v0.1.json",
+      "destination": "PACKAGE-MANIFEST.json"
+    },
+    {
+      "source": "cce/__init__.py",
+      "destination": "cce/__init__.py"
+    },
+    {
+      "source": "cce/CCE-SPECIFICATION-v0.1.md",
+      "destination": "cce/CCE-SPECIFICATION-v0.1.md"
+    },
+    {
+      "source": "cce/PROHIBITED-USES-AND-MISUSE-REGISTER-v0.1.md",
+      "destination": "cce/PROHIBITED-USES-AND-MISUSE-REGISTER-v0.1.md"
+    },
+    {
+      "source": "cce/model/ai-effective-influence-operational-definitions.md",
+      "destination": "cce/model/ai-effective-influence-operational-definitions.md"
+    },
+    {
+      "source": "cce/model/analytical-properties-v0.1.md",
+      "destination": "cce/model/analytical-properties-v0.1.md"
+    },
+    {
+      "source": "cce/model/decision-rule-comparison.md",
+      "destination": "cce/model/decision-rule-comparison.md"
+    },
+    {
+      "source": "cce/model/four-agent-causal-structure.md",
+      "destination": "cce/model/four-agent-causal-structure.md"
+    },
+    {
+      "source": "cce/model/minimal-equations-and-hand-calculation.md",
+      "destination": "cce/model/minimal-equations-and-hand-calculation.md"
+    },
+    {
+      "source": "cce/model/personal-sovereignty-operational-definitions.md",
+      "destination": "cce/model/personal-sovereignty-operational-definitions.md"
+    },
+    {
+      "source": "cce/literature/ai-influence-components/verification.md",
+      "destination": "cce/literature/ai-influence-components/verification.md"
+    },
+    {
+      "source": "cce/literature/DR-P1-04-SOVEREIGNTY-PARTICIPATION-BURDEN-MEASURES-v0.1.md",
+      "destination": "cce/literature/DR-P1-04-SOVEREIGNTY-PARTICIPATION-BURDEN-MEASURES-v0.1.md"
+    },
+    {
+      "source": "cce/literature/DR-P1-05-RIGHTS-ETHICS-GOVERNANCE-EVIDENCE-v0.1.md",
+      "destination": "cce/literature/DR-P1-05-RIGHTS-ETHICS-GOVERNANCE-EVIDENCE-v0.1.md"
+    },
+    {
+      "source": "cce/simulation/__init__.py",
+      "destination": "cce/simulation/__init__.py"
+    },
+    {
+      "source": "cce/simulation/analytical_properties.py",
+      "destination": "cce/simulation/analytical_properties.py"
+    },
+    {
+      "source": "cce/simulation/cce_mvm.py",
+      "destination": "cce/simulation/cce_mvm.py"
+    },
+    {
+      "source": "cce/simulation/m0_baseline_experiment.py",
+      "destination": "cce/simulation/m0_baseline_experiment.py"
+    },
+    {
+      "source": "cce/simulation/h1_h2_experiments.py",
+      "destination": "cce/simulation/h1_h2_experiments.py"
+    },
+    {
+      "source": "cce/simulation/h1b_experiments.py",
+      "destination": "cce/simulation/h1b_experiments.py"
+    },
+    {
+      "source": "cce/simulation/h1b_robustness.py",
+      "destination": "cce/simulation/h1b_robustness.py"
+    },
+    {
+      "source": "cce/simulation/noise_robustness.py",
+      "destination": "cce/simulation/noise_robustness.py"
+    },
+    {
+      "source": "cce/simulation/observation_failures.py",
+      "destination": "cce/simulation/observation_failures.py"
+    },
+    {
+      "source": "cce/simulation/test_analytical_properties.py",
+      "destination": "cce/simulation/test_analytical_properties.py"
+    },
+    {
+      "source": "cce/simulation/test_cce_mvm.py",
+      "destination": "cce/simulation/test_cce_mvm.py"
+    },
+    {
+      "source": "cce/simulation/test_h1_h2_experiments.py",
+      "destination": "cce/simulation/test_h1_h2_experiments.py"
+    },
+    {
+      "source": "cce/simulation/test_h1b_experiments.py",
+      "destination": "cce/simulation/test_h1b_experiments.py"
+    },
+    {
+      "source": "cce/simulation/test_h1b_robustness.py",
+      "destination": "cce/simulation/test_h1b_robustness.py"
+    },
+    {
+      "source": "cce/simulation/test_noise_robustness.py",
+      "destination": "cce/simulation/test_noise_robustness.py"
+    },
+    {
+      "source": "cce/simulation/test_observation_failures.py",
+      "destination": "cce/simulation/test_observation_failures.py"
+    },
+    {
+      "source": "cce/experiments/h1-h2-protocol.md",
+      "destination": "cce/experiments/h1-h2-protocol.md"
+    },
+    {
+      "source": "cce/experiments/h1-h2-noise-robustness.md",
+      "destination": "cce/experiments/h1-h2-noise-robustness.md"
+    },
+    {
+      "source": "cce/experiments/observation-failure-protocol.md",
+      "destination": "cce/experiments/observation-failure-protocol.md"
+    },
+    {
+      "source": "cce/experiments/h1b-protocol.md",
+      "destination": "cce/experiments/h1b-protocol.md"
+    },
+    {
+      "source": "cce/experiments/h1b-robustness-protocol.md",
+      "destination": "cce/experiments/h1b-robustness-protocol.md"
+    },
+    {
+      "source": "cce/experiments/config/h1_h2_v0.1.json",
+      "destination": "cce/experiments/config/h1_h2_v0.1.json"
+    },
+    {
+      "source": "cce/experiments/config/m0_baseline_v0.1.json",
+      "destination": "cce/experiments/config/m0_baseline_v0.1.json"
+    },
+    {
+      "source": "cce/experiments/config/h1_h2_noise_v0.1.json",
+      "destination": "cce/experiments/config/h1_h2_noise_v0.1.json"
+    },
+    {
+      "source": "cce/experiments/config/observation_failures_v0.1.json",
+      "destination": "cce/experiments/config/observation_failures_v0.1.json"
+    },
+    {
+      "source": "cce/experiments/config/h1b_v0.1.json",
+      "destination": "cce/experiments/config/h1b_v0.1.json"
+    },
+    {
+      "source": "cce/experiments/config/h1b_robustness_v0.1.json",
+      "destination": "cce/experiments/config/h1b_robustness_v0.1.json"
+    },
+    {
+      "source": "cce/experiments/results/m0_baseline_v0.1/baseline.json",
+      "destination": "cce/experiments/results/m0_baseline_v0.1/baseline.json"
+    },
+    {
+      "source": "cce/experiments/results/m0_baseline_v0.1/metadata.json",
+      "destination": "cce/experiments/results/m0_baseline_v0.1/metadata.json"
+    },
+    {
+      "source": "cce/experiments/results/h1_h2_v0.1/metadata.json",
+      "destination": "cce/experiments/results/h1_h2_v0.1/metadata.json"
+    },
+    {
+      "source": "cce/experiments/results/h1_h2_v0.1/summary.csv",
+      "destination": "cce/experiments/results/h1_h2_v0.1/summary.csv"
+    },
+    {
+      "source": "cce/experiments/results/h1_h2_v0.1/trajectories.csv",
+      "destination": "cce/experiments/results/h1_h2_v0.1/trajectories.csv"
+    },
+    {
+      "source": "cce/experiments/results/h1_h2_noise_v0.1/aggregate.csv",
+      "destination": "cce/experiments/results/h1_h2_noise_v0.1/aggregate.csv"
+    },
+    {
+      "source": "cce/experiments/results/h1_h2_noise_v0.1/metadata.json",
+      "destination": "cce/experiments/results/h1_h2_noise_v0.1/metadata.json"
+    },
+    {
+      "source": "cce/experiments/results/h1_h2_noise_v0.1/per_run.csv",
+      "destination": "cce/experiments/results/h1_h2_noise_v0.1/per_run.csv"
+    },
+    {
+      "source": "cce/experiments/results/observation_failures_v0.1/aggregate.csv",
+      "destination": "cce/experiments/results/observation_failures_v0.1/aggregate.csv"
+    },
+    {
+      "source": "cce/experiments/results/observation_failures_v0.1/metadata.json",
+      "destination": "cce/experiments/results/observation_failures_v0.1/metadata.json"
+    },
+    {
+      "source": "cce/experiments/results/observation_failures_v0.1/per_run.csv",
+      "destination": "cce/experiments/results/observation_failures_v0.1/per_run.csv"
+    },
+    {
+      "source": "cce/experiments/results/h1b_v0.1/h1b_1.csv",
+      "destination": "cce/experiments/results/h1b_v0.1/h1b_1.csv"
+    },
+    {
+      "source": "cce/experiments/results/h1b_v0.1/h1b_2.csv",
+      "destination": "cce/experiments/results/h1b_v0.1/h1b_2.csv"
+    },
+    {
+      "source": "cce/experiments/results/h1b_v0.1/metadata.json",
+      "destination": "cce/experiments/results/h1b_v0.1/metadata.json"
+    },
+    {
+      "source": "cce/experiments/results/h1b_robustness_v0.1/baseline_sensitivity.csv",
+      "destination": "cce/experiments/results/h1b_robustness_v0.1/baseline_sensitivity.csv"
+    },
+    {
+      "source": "cce/experiments/results/h1b_robustness_v0.1/metadata.json",
+      "destination": "cce/experiments/results/h1b_robustness_v0.1/metadata.json"
+    },
+    {
+      "source": "cce/experiments/results/h1b_robustness_v0.1/option_grid_sensitivity.csv",
+      "destination": "cce/experiments/results/h1b_robustness_v0.1/option_grid_sensitivity.csv"
+    }
+  ],
+  "allowed_mutable_files": [],
+  "relative_reference_exemptions": [
+    {
+      "source": "cce/CCE-SPECIFICATION-v0.1.md",
+      "reference": "CCE-CANONICAL.md",
+      "classification": "intentionally_not_packaged",
+      "reason": "The canonical planning record contains project-governance material outside the sanitized computational package."
+    },
+    {
+      "source": "cce/CCE-SPECIFICATION-v0.1.md",
+      "reference": "simulation/README.md",
+      "classification": "intentionally_not_packaged",
+      "reason": "The development README also routes to future human-participant preparation that is excluded from this package."
+    },
+    {
+      "source": "cce/model/ai-effective-influence-operational-definitions.md",
+      "reference": "ai-influence-component-decomposition.md",
+      "classification": "intentionally_not_packaged",
+      "reason": "The development note contains project-specific future-study material; the operational definition included here is the package-scoped source."
+    },
+    {
+      "source": "cce/experiments/h1-h2-protocol.md",
+      "reference": "../model/ai-influence-component-decomposition.md",
+      "classification": "intentionally_not_packaged",
+      "reason": "The referenced development note includes future-study material outside the sanitized v0.1 package."
+    },
+    {
+      "source": "cce/experiments/h1b-protocol.md",
+      "reference": "../model/ai-influence-component-decomposition.md",
+      "classification": "intentionally_not_packaged",
+      "reason": "The referenced development note includes future-study material outside the sanitized v0.1 package."
+    },
+    {
+      "source": "cce/experiments/h1b-robustness-protocol.md",
+      "reference": "../model/ai-influence-component-decomposition.md",
+      "classification": "intentionally_not_packaged",
+      "reason": "The referenced development note includes future-study material outside the sanitized v0.1 package."
+    },
+    {
+      "source": "cce/experiments/h1b-protocol.md",
+      "reference": "metadata.json",
+      "classification": "generic_filename",
+      "reason": "This sentence describes the metadata filename shared by generated output directories rather than a file beside the protocol."
+    }
+  ],
+  "forbidden_path_fragments": [
+    "h1c_r",
+    "h1c-r",
+    "consultation",
+    "feedback",
+    "evidence/"
+  ],
+  "forbidden_suffixes": [
+    ".xlsx",
+    ".jpg",
+    ".jpeg",
+    ".png",
+    ".pdf"
+  ],
+  "forbidden_content_patterns": [
+    "response-page"
+  ],
+  "verifier_test_modules": [
+    "test_verify_package"
+  ],
+  "expected_verifier_test_count": 16,
+  "core_test_modules": [
+    "cce.simulation.test_cce_mvm",
+    "cce.simulation.test_analytical_properties",
+    "cce.simulation.test_h1_h2_experiments",
+    "cce.simulation.test_noise_robustness",
+    "cce.simulation.test_observation_failures",
+    "cce.simulation.test_h1b_experiments",
+    "cce.simulation.test_h1b_robustness"
+  ],
+  "expected_core_test_count": 96,
+  "experiments": [
+    {
+      "id": "m0_baseline_v0.1",
+      "module": "cce.simulation.m0_baseline_experiment",
+      "saved_result_dir": "cce/experiments/results/m0_baseline_v0.1",
+      "metadata_file": "metadata.json",
+      "config_path": "cce/experiments/config/m0_baseline_v0.1.json",
+      "config_sha256_field": "config_sha256",
+      "config_sha256_required": true,
+      "required_metadata": {
+        "model": "CCE-MVM-v0.1",
+        "model_version": "CCE-MVM-v0.1",
+        "specification_version": "CCE-SPECIFICATION-v0.1",
+        "generator_module": "cce.simulation.m0_baseline_experiment",
+        "source_release_status": "unreleased_internal_candidate",
+        "synthetic_only": true
+      },
+      "files": [
+        "metadata.json",
+        "baseline.json"
+      ]
+    },
+    {
+      "id": "h1_h2_v0.1",
+      "module": "cce.simulation.h1_h2_experiments",
+      "saved_result_dir": "cce/experiments/results/h1_h2_v0.1",
+      "metadata_file": "metadata.json",
+      "config_path": "cce/experiments/config/h1_h2_v0.1.json",
+      "config_sha256_field": "config_sha256",
+      "config_sha256_required": true,
+      "required_metadata": {
+        "model": "CCE-MVM-v0.1",
+        "model_version": "CCE-MVM-v0.1",
+        "specification_version": "CCE-SPECIFICATION-v0.1",
+        "generator_module": "cce.simulation.h1_h2_experiments",
+        "source_release_status": "unreleased_internal_candidate",
+        "synthetic_only": true
+      },
+      "files": [
+        "metadata.json",
+        "summary.csv",
+        "trajectories.csv"
+      ]
+    },
+    {
+      "id": "h1_h2_noise_v0.1",
+      "module": "cce.simulation.noise_robustness",
+      "saved_result_dir": "cce/experiments/results/h1_h2_noise_v0.1",
+      "metadata_file": "metadata.json",
+      "config_path": "cce/experiments/config/h1_h2_noise_v0.1.json",
+      "config_sha256_field": "config_sha256",
+      "config_sha256_required": true,
+      "required_metadata": {
+        "model": "CCE-MVM-v0.1",
+        "model_version": "CCE-MVM-v0.1",
+        "specification_version": "CCE-SPECIFICATION-v0.1",
+        "generator_module": "cce.simulation.noise_robustness",
+        "source_release_status": "unreleased_internal_candidate",
+        "synthetic_only": true
+      },
+      "files": [
+        "aggregate.csv",
+        "metadata.json",
+        "per_run.csv"
+      ]
+    },
+    {
+      "id": "observation_failures_v0.1",
+      "module": "cce.simulation.observation_failures",
+      "saved_result_dir": "cce/experiments/results/observation_failures_v0.1",
+      "metadata_file": "metadata.json",
+      "config_path": "cce/experiments/config/observation_failures_v0.1.json",
+      "config_sha256_field": "config_sha256",
+      "config_sha256_required": true,
+      "required_metadata": {
+        "model": "CCE-MVM-v0.1",
+        "model_version": "CCE-MVM-v0.1",
+        "specification_version": "CCE-SPECIFICATION-v0.1",
+        "generator_module": "cce.simulation.observation_failures",
+        "source_release_status": "unreleased_internal_candidate",
+        "synthetic_only": true
+      },
+      "files": [
+        "aggregate.csv",
+        "metadata.json",
+        "per_run.csv"
+      ]
+    },
+    {
+      "id": "h1b_v0.1",
+      "module": "cce.simulation.h1b_experiments",
+      "saved_result_dir": "cce/experiments/results/h1b_v0.1",
+      "metadata_file": "metadata.json",
+      "config_path": "cce/experiments/config/h1b_v0.1.json",
+      "config_sha256_field": "config_sha256",
+      "required_metadata": {
+        "model": "CCE-MVM-v0.1",
+        "model_version": "CCE-MVM-v0.1",
+        "specification_version": "CCE-SPECIFICATION-v0.1",
+        "generator_module": "cce.simulation.h1b_experiments",
+        "source_release_status": "unreleased_internal_candidate",
+        "synthetic_only": true,
+        "provenance_status": "mixed_provenance_original_internally_fixed_plus_postreview_diagnostic",
+        "implementation_status": "executed_original_internally_fixed_conditions_plus_postreview_diagnostic"
+      },
+      "files": [
+        "h1b_1.csv",
+        "h1b_2.csv",
+        "metadata.json"
+      ]
+    },
+    {
+      "id": "h1b_robustness_v0.1",
+      "module": "cce.simulation.h1b_robustness",
+      "saved_result_dir": "cce/experiments/results/h1b_robustness_v0.1",
+      "metadata_file": "metadata.json",
+      "config_path": "cce/experiments/config/h1b_robustness_v0.1.json",
+      "config_sha256_field": "config_sha256",
+      "required_metadata": {
+        "model": "CCE-MVM-v0.1",
+        "model_version": "CCE-MVM-v0.1",
+        "specification_version": "CCE-SPECIFICATION-v0.1",
+        "generator_module": "cce.simulation.h1b_robustness",
+        "source_release_status": "unreleased_internal_candidate",
+        "synthetic_only": true,
+        "provenance_status": "internally_fixed_before_execution_external_registry_not_used",
+        "implementation_status": "executed_from_internally_fixed_config"
+      },
+      "files": [
+        "baseline_sensitivity.csv",
+        "metadata.json",
+        "option_grid_sensitivity.csv"
+      ]
+    }
+  ],
+  "publication_gates": [
+    "Author selects and adds a code license",
+    "A clean public commit or release tag is fixed",
+    "Supported Python versions are tested and documented",
+    "An independent reviewer reproduces the package in a separate environment",
+    "The final release hashes are regenerated after freeze"
+  ]
+}

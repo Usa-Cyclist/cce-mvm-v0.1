@@ -1,0 +1,169 @@
+{
+  "model": "CCE-MVM-v0.1",
+  "model_version": "CCE-MVM-v0.1",
+  "specification_version": "CCE-SPECIFICATION-v0.1",
+  "generator_module": "cce.simulation.h1b_experiments",
+  "source_release_status": "unreleased_internal_candidate",
+  "synthetic_only": true,
+  "status": "mixed_provenance_original_internally_fixed_plus_postreview_diagnostic",
+  "provenance_scope": {
+    "h1b_1_33_conditions": "internally_fixed_before_execution_external_registry_not_used",
+    "h1b_2_original_7_cases": "internally_fixed_before_execution_external_registry_not_used",
+    "option_narrowing_all_gates_met": "added_after_execution_as_independent_ai_review_diagnostic"
+  },
+  "review_correction": {
+    "date": "2026-08-30",
+    "source": "Claude Opus 5 independent critical review A-10",
+    "change": "added_one_unconfounded_option_narrowing_diagnostic_case",
+    "original_33_conditions_and_7_cases_changed": false
+  },
+  "decision_event": {
+    "options": [-1.0, 0.0, 1.0],
+    "baseline_response": 1.0,
+    "valid_delegation": false,
+    "counterfactual_coupling": 0.0,
+    "tie_rule": "pause_and_present_all_nearest_options"
+  },
+  "h1b_1_response_coupling": {
+    "proposal_values": [-1.0, 0.0, 1.0],
+    "couplings": [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0],
+    "rights_gates": {
+      "will_and_preferences": "met",
+      "support_access": "met",
+      "no_undue_influence": "met",
+      "proportionate_and_limited": "met",
+      "review_and_appeal": "met",
+      "delegation_and_return": "met"
+    },
+    "presented_options": [-1.0, 0.0, 1.0],
+    "expected_conditions": 33
+  },
+  "h1b_2_rights_protection": {
+    "common": {
+      "proposal_value": -1.0,
+      "coupling": 1.0,
+      "baseline_response": 1.0,
+      "valid_delegation": false,
+      "rights_gates": {
+        "will_and_preferences": "met",
+        "support_access": "met",
+        "no_undue_influence": "met",
+        "proportionate_and_limited": "met",
+        "review_and_appeal": "met",
+        "delegation_and_return": "met"
+      }
+    },
+    "cases": [
+      {
+        "id": "confirmed_modify_all_gates_met",
+        "person_response": "modify",
+        "response_option": -1.0,
+        "presented_options": [-1.0, 0.0, 1.0],
+        "rights_override": {},
+        "expected_status": "decided",
+        "expected_decision": -1.0,
+        "expected_rights_violation": false
+      },
+      {
+        "id": "reject_all_gates_met",
+        "person_response": "reject",
+        "response_option": null,
+        "presented_options": [-1.0, 0.0, 1.0],
+        "rights_override": {},
+        "expected_status": "paused",
+        "expected_decision": null,
+        "expected_rejection_blockage": 0
+      },
+      {
+        "id": "defer_all_gates_met",
+        "person_response": "defer",
+        "response_option": null,
+        "presented_options": [-1.0, 0.0, 1.0],
+        "rights_override": {},
+        "expected_status": "paused",
+        "expected_decision": null
+      },
+      {
+        "id": "unconfirmed_all_gates_met",
+        "person_response": "unconfirmed",
+        "response_option": null,
+        "presented_options": [-1.0, 0.0, 1.0],
+        "rights_override": {},
+        "expected_status": "paused",
+        "expected_decision": null
+      },
+      {
+        "id": "undue_influence_gate_violated",
+        "person_response": "modify",
+        "response_option": -1.0,
+        "presented_options": [-1.0, 0.0, 1.0],
+        "rights_override": {
+          "no_undue_influence": "violated"
+        },
+        "expected_status": "paused",
+        "expected_decision": null,
+        "expected_rights_violation": true
+      },
+      {
+        "id": "ai_option_narrowing",
+        "person_response": "modify",
+        "response_option": -1.0,
+        "presented_options": [-1.0],
+        "rights_override": {
+          "no_undue_influence": "violated"
+        },
+        "expected_option_loss": 0.666666667,
+        "expected_status": "paused",
+        "expected_decision": null,
+        "expected_rights_violation": true
+      },
+      {
+        "id": "option_narrowing_all_gates_met",
+        "person_response": "modify",
+        "response_option": -1.0,
+        "presented_options": [-1.0],
+        "rights_override": {},
+        "expected_option_loss": 0.666666667,
+        "expected_status": "decided",
+        "expected_decision": -1.0,
+        "expected_rights_violation": false
+      },
+      {
+        "id": "unsafe_reject_bypass_negative_control",
+        "person_response": "reject",
+        "response_option": null,
+        "presented_options": [-1.0, 0.0, 1.0],
+        "rights_override": {},
+        "test_fixture_only": true,
+        "forced_decision": -1.0,
+        "expected_status": "decided",
+        "expected_decision": -1.0,
+        "expected_rejection_blockage": 1,
+        "expected_analysis_row_valid": false
+      }
+    ],
+    "expected_cases": 8
+  },
+  "outputs": [
+    "post_proposal_response",
+    "nearest_options",
+    "person_response_source",
+    "analysis_substituted_response",
+    "pause_source",
+    "decision_status",
+    "decision_value",
+    "response_effect",
+    "decision_effect",
+    "decision_mismatch",
+    "decision_opposes_baseline_response",
+    "option_loss_structural_constant",
+    "rejection_blockage_structural_constant",
+    "rights_violation_structural_constant",
+    "option_loss",
+    "rejection_blockage",
+    "rights_violation",
+    "gate_assertion_conflicts_with_spec_definition",
+    "analysis_row_valid",
+    "pause_consequence_status"
+  ]
+}

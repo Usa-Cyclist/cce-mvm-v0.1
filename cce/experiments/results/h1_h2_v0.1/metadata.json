@@ -1,0 +1,15 @@
+{
+  "model": "CCE-MVM-v0.1",
+  "model_version": "CCE-MVM-v0.1",
+  "specification_version": "CCE-SPECIFICATION-v0.1",
+  "config_sha256": "fc3033f5f6ac6af7098b22203a60641b920c72f130cc6678755349b2ccc4f0e1",
+  "generator_module": "cce.simulation.h1_h2_experiments",
+  "source_release_status": "unreleased_internal_candidate",
+  "synthetic_only": true,
+  "summary_rows": 9,
+  "trajectory_rows": 245,
+  "files": [
+    "summary.csv",
+    "trajectories.csv"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "model": "CCE-MVM-v0.1",
+  "model_version": "CCE-MVM-v0.1",
+  "specification_version": "CCE-SPECIFICATION-v0.1",
+  "generator_module": "cce.simulation.m0_baseline_experiment",
+  "source_release_status": "unreleased_internal_candidate",
+  "synthetic_only": true,
+  "case_id": "m0_hand_calculation_baseline",
+  "person_will": 0.8,
+  "options": [-1.0, 0.0, 1.0],
+  "actors": [
+    {
+      "code": "A",
+      "label": "AI",
+      "old_model": 0.4,
+      "observation_error": -0.2,
+      "learning_rate": 0.5,
+      "risk": 0.6,
+      "risk_weight": 0.5
+    },
+    {
+      "code": "F",
+      "label": "family",
+      "old_model": 0.1,
+      "observation_error": -0.6,
+      "learning_rate": 0.2,
+      "risk": 0.8,
+      "risk_weight": 0.9
+    },
+    {
+      "code": "C",
+      "label": "professional",
+      "old_model": 0.5,
+      "observation_error": -0.1,
+      "learning_rate": 0.4,
+      "risk": 0.5,
+      "risk_weight": 0.4
+    }
+  ],
+  "decision_context": {
+    "decision_target": "outing_method",
+    "deadline": {"value": null, "status": "not_parameterized"},
+    "affected_parties": ["person", "family"]
+  },
+  "person_response": {
+    "action": "modify",
+    "option": 0.0,
+    "source": "exogenous_synthetic_input"
+  },
+  "delegation": {
+    "delegate": "daughter",
+    "scopes": ["departure_time"],
+    "within_time_limit": true,
+    "person_chosen": true,
+    "revoked": false,
+    "revocable": true,
+    "delegate_is_ai": false,
+    "delegated_option": null
+  },
+  "rights_gates": {
+    "will_and_preferences": "met",
+    "support_access": "met",
+    "no_undue_influence": "met",
+    "proportionate_and_limited": "met",
+    "review_and_appeal": "met",
+    "delegation_and_return": "met"
+  },
+  "procedural_participation": {
+    "meaningful_contribution": "met",
+    "comprehensible_information": "met",
+    "real_options": "met",
+    "refusal_and_modification": "met",
+    "expression_support": "unconfirmed",
+    "time_and_reconsideration": "unconfirmed"
+  },
+  "outcomes_by_option": {
+    "-1.0": {
+      "person": {"safety": 0.95, "occupational_participation": 0.1},
+      "family": {"burden": 0.2}
+    },
+    "0.0": {
+      "person": {"safety": 0.75, "occupational_participation": 0.8},
+      "family": {"burden": 0.4}
+    },
+    "1.0": {
+      "person": {"safety": 0.4, "occupational_participation": 1.0},
+      "family": {"burden": 0.8}
+    }
+  }
+}

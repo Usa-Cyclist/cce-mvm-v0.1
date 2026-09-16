@@ -1,0 +1,9 @@
+case_id,proposal_value,coupling,baseline_response,post_proposal_response,person_response,person_response_source,analysis_substituted_response,pause_source,response_option,presented_options,decision_status,decision_value,decision_rule,response_effect,decision_effect,decision_mismatch,decision_opposes_baseline_response,option_loss,gate_assertion_conflicts_with_spec_definition,rejection_blockage,rights_violation,analysis_row_valid,pause_consequence_status,test_fixture_only
+confirmed_modify_all_gates_met,-1.0,1.0,1.0,-1.0,modify,synthetic_case_input,False,none,-1.0,-1.0|0.0|1.0,decided,-1.0,person,1.0,1.0,1.0,True,0.0,False,0,False,True,not_applicable,False
+reject_all_gates_met,-1.0,1.0,1.0,-1.0,reject,synthetic_case_input,False,synthetic_case_response,,-1.0|0.0|1.0,paused,,person,1.0,,,,0.0,False,0,False,True,not_modeled,False
+defer_all_gates_met,-1.0,1.0,1.0,-1.0,defer,synthetic_case_input,False,synthetic_case_response,,-1.0|0.0|1.0,paused,,person,1.0,,,,0.0,False,0,False,True,not_modeled,False
+unconfirmed_all_gates_met,-1.0,1.0,1.0,-1.0,unconfirmed,synthetic_case_input,False,synthetic_case_response,,-1.0|0.0|1.0,paused,,person,1.0,,,,0.0,False,0,False,True,not_modeled,False
+undue_influence_gate_violated,-1.0,1.0,1.0,-1.0,modify,synthetic_case_input,False,rights_gate,-1.0,-1.0|0.0|1.0,paused,,none,1.0,,,,0.0,False,0,True,True,not_modeled,False
+ai_option_narrowing,-1.0,1.0,1.0,-1.0,modify,synthetic_case_input,False,rights_gate,-1.0,-1.0,paused,,none,1.0,,,,0.666666667,False,0,True,True,not_modeled,False
+option_narrowing_all_gates_met,-1.0,1.0,1.0,-1.0,modify,synthetic_case_input,False,none,-1.0,-1.0,decided,-1.0,person,1.0,1.0,1.0,True,0.666666667,True,0,False,True,not_applicable,False
+unsafe_reject_bypass_negative_control,-1.0,1.0,1.0,-1.0,reject,synthetic_case_input,False,none,,-1.0|0.0|1.0,decided,-1.0,unsafe_negative_control,1.0,1.0,1.0,True,0.0,False,1,False,False,not_applicable,True

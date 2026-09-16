@@ -1,0 +1,32 @@
+{
+  "model": "CCE-MVM-v0.1",
+  "model_version": "CCE-MVM-v0.1",
+  "specification_version": "CCE-SPECIFICATION-v0.1",
+  "config_sha256": "81856a07f8ae513196499b3ec60baefb130670e7ed0bc78ccbf9794bd0780c14",
+  "generator_module": "cce.simulation.h1b_experiments",
+  "source_release_status": "unreleased_internal_candidate",
+  "synthetic_only": true,
+  "provenance_status": "mixed_provenance_original_internally_fixed_plus_postreview_diagnostic",
+  "config_status_at_fixing_time": "mixed_provenance_original_internally_fixed_plus_postreview_diagnostic",
+  "provenance_scope": {
+    "h1b_1_33_conditions": "internally_fixed_before_execution_external_registry_not_used",
+    "h1b_2_original_7_cases": "internally_fixed_before_execution_external_registry_not_used",
+    "option_narrowing_all_gates_met": "added_after_execution_as_independent_ai_review_diagnostic"
+  },
+  "review_correction": {
+    "date": "2026-08-30",
+    "source": "Claude Opus 5 independent critical review A-10",
+    "change": "added_one_unconfounded_option_narrowing_diagnostic_case",
+    "original_33_conditions_and_7_cases_changed": false
+  },
+  "implementation_status": "executed_original_internally_fixed_conditions_plus_postreview_diagnostic",
+  "h1b_1_rows": 33,
+  "h1b_2_rows": 8,
+  "analysis_valid_h1b_2_rows": 7,
+  "invalid_negative_controls": 1,
+  "h1b_1_decision_metric_degeneracy": "decision_effect equals decision_mismatch because the baseline response is itself a feasible option in all H1b-1 conditions",
+  "files": [
+    "h1b_1.csv",
+    "h1b_2.csv"
+  ]
+}

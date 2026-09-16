@@ -1,0 +1,21 @@
+{
+  "model": "CCE-MVM-v0.1",
+  "model_version": "CCE-MVM-v0.1",
+  "specification_version": "CCE-SPECIFICATION-v0.1",
+  "config_sha256": "76c324fb4263933fdc9d451c2eeb2e303ffbf7c8573eb816bdd6691d7228294c",
+  "generator_module": "cce.simulation.h1b_robustness",
+  "source_release_status": "unreleased_internal_candidate",
+  "synthetic_only": true,
+  "provenance_status": "internally_fixed_before_execution_external_registry_not_used",
+  "config_status_at_fixing_time": "internally_fixed_before_execution_external_registry_not_used",
+  "implementation_status": "executed_from_internally_fixed_config",
+  "baseline_sensitivity_rows": 44,
+  "option_grid_sensitivity_rows": 33,
+  "total_rows": 77,
+  "analysis_valid_rows": 77,
+  "option_set_role": "researcher_defined_environment_not_ai_removal",
+  "files": [
+    "baseline_sensitivity.csv",
+    "option_grid_sensitivity.csv"
+  ]
+}

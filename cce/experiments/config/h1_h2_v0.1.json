@@ -1,0 +1,33 @@
+{
+  "model": "CCE-MVM-v0.1",
+  "model_version": "CCE-MVM-v0.1",
+  "specification_version": "CCE-SPECIFICATION-v0.1",
+  "generator_module": "cce.simulation.h1_h2_experiments",
+  "source_release_status": "unreleased_internal_candidate",
+  "synthetic_only": true,
+  "description": "Deterministic learning-rate experiments for H1a and H2",
+  "h1": {
+    "name": "past-person-model lock-in",
+    "time_steps": 30,
+    "change_step": 10,
+    "will_before": -0.8,
+    "will_after": 0.8,
+    "initial_model": -0.8,
+    "learning_rates": [0.05, 0.2, 0.5, 0.8],
+    "recovery_tolerance": 0.1,
+    "risk_deduction": 0.0
+  },
+  "h2": {
+    "name": "temporary-state overtracking",
+    "time_steps": 25,
+    "stable_reference": 0.8,
+    "normal_observation": 0.8,
+    "shock_observation": -0.8,
+    "shock_start": 10,
+    "shock_end_exclusive": 12,
+    "initial_model": 0.8,
+    "learning_rates": [0.05, 0.2, 0.5, 0.8, 1.0],
+    "recovery_tolerance": 0.1,
+    "risk_deduction": 0.0
+  }
+}
